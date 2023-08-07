@@ -382,8 +382,8 @@ Verified with firmware 1.1.I
 
 // Value to write to the EEPROM for remaining filament lenght
 // Default Starter Cartdridge is 120m
-char x[] = {0xc0,0xd4,0x01,0x00}; //120m
-//char x[] = {0x80,0xa9,0x03,0x00}; //240m
+//char x[] = {0xc0,0xd4,0x01,0x00}; //120m
+char x[] = {0x80,0xa9,0x03,0x00}; //240m
 //char x[] = {0x80,0x1a,0x06,0x00}; //400m
 
 // extruder temp, default is 210 C for ABS
@@ -401,7 +401,8 @@ char bt[] = {0x5a,0x00}; //90C
 
 //char mt[] = {0x41}; //ABS
 //char mt[] = {0x50}; //PLA
-char mt[] = {0x46}; //Flex
+//char mt[] = {0x46}; //Flex
+char mt[] = {0x54}; //tough
 
 
 byte sr;
@@ -465,4 +466,3 @@ void loop() {
   digitalWrite(led, HIGH);   // turn the LED on
   delay(10000);              // wait for ten seconds 
 }
-
