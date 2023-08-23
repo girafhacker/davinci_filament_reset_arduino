@@ -402,7 +402,7 @@ char bt[] = {0x5a,0x00}; //90C
 //char mt[] = {0x41}; //ABS
 //char mt[] = {0x50}; //PLA
 //char mt[] = {0x46}; //Flex
-char mt[] = {0x54}; //tough
+char mt[] = {0x54}; //pla tough
 
 
 byte sr;
